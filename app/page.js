@@ -23,15 +23,13 @@ export default function Home() {
       <section className="hero" id="hero">
         <div className="container">
           <div className="hero-content">
-            <div className="hero-badge animate-in">
-              🚀 Enterprise-Grade Campus Platform
-            </div>
+
             <h1 className="hero-title animate-in delay-1">
               Intelligent Campus<br />
               <span className="hero-title-gradient">Attendance System</span>
             </h1>
             <p className="hero-desc animate-in delay-2">
-              Eliminate proxy attendance forever. LedgerAttend uses precision GPS geofencing,
+              LedgerAttend uses precision GPS geofencing,
               cryptographic timestamps, and real-time cloud analytics to ensure every
               attendance record is accurate, verified, and irrefutable.
             </p>
@@ -45,19 +43,19 @@ export default function Home() {
             </div>
             <div className="hero-stats animate-in delay-4">
               <div>
-                <div className="hero-stat-value">50m</div>
+                <div className="hero-stat-value">100%</div>
                 <div className="hero-stat-label">Geofence Precision</div>
               </div>
               <div>
-                <div className="hero-stat-value">3-Tier</div>
-                <div className="hero-stat-label">Security Architecture</div>
+                <div className="hero-stat-value">3-Level</div>
+                <div className="hero-stat-label">Role Architecture</div>
               </div>
               <div>
                 <div className="hero-stat-value">Real-Time</div>
                 <div className="hero-stat-label">Cloud Sync</div>
               </div>
               <div>
-                <div className="hero-stat-value">0%</div>
+                <div className="hero-stat-value">00%</div>
                 <div className="hero-stat-label">Proxy Tolerance</div>
               </div>
             </div>
@@ -79,7 +77,7 @@ export default function Home() {
             <div className="comparison-card comparison-old">
               <h3 style={{ color: '#f87171' }}>❌ The Old Way</h3>
               <ul>
-                <li><span>📝</span> Manual roll calls waste 10+ minutes daily</li>
+                <li><span>📝</span> Manual roll calls waste 15+ minutes daily</li>
                 <li><span>🎭</span> Proxy attendance is rampant and undetectable</li>
                 <li><span>📊</span> Paper records are error-prone and unsearchable</li>
                 <li><span>⏳</span> Report generation takes hours of manual work</li>
@@ -92,7 +90,7 @@ export default function Home() {
               <ul>
                 <li><span>📍</span> GPS geofencing verifies physical presence instantly</li>
                 <li><span>🛡️</span> Cryptographic timestamps prevent manipulation</li>
-                <li><span>☁️</span> Cloud-first data — searchable, exportable, real-time</li>
+                <li><span>☁️</span> Cloud-first data - searchable, exportable, real-time</li>
                 <li><span>📈</span> One-click analytics and compliance-ready reports</li>
                 <li><span>🔐</span> Zero-trust architecture with Firebase Auth</li>
               </ul>
@@ -116,8 +114,8 @@ export default function Home() {
               <div className="feature-icon" style={{ background: 'rgba(99, 102, 241, 0.12)' }}>📍</div>
               <h3 className="feature-title">Precision Geofencing</h3>
               <p className="feature-desc">
-                High-accuracy GPS geofencing ensures students are physically within a 50-meter
-                radius of the classroom. No spoofing, no proxy — guaranteed.
+                High-accuracy GPS geofencing ensures students are physically within a 5 to 50 meter
+                radius of the classroom. No spoofing, no proxy - guaranteed.
               </p>
             </div>
             <div className="feature-card">
@@ -140,7 +138,7 @@ export default function Home() {
               <div className="feature-icon" style={{ background: 'rgba(245, 158, 11, 0.12)' }}>👥</div>
               <h3 className="feature-title">Role-Based Access</h3>
               <p className="feature-desc">
-                Three-tier RBAC system — Super Admin, Faculty, and Students — each with
+                Three-tier RBAC system - Super Admin, Faculty, and Students - each with
                 precisely scoped permissions and data visibility.
               </p>
             </div>
@@ -148,8 +146,8 @@ export default function Home() {
               <div className="feature-icon" style={{ background: 'rgba(239, 68, 68, 0.12)' }}>📱</div>
               <h3 className="feature-title">Cross-Platform App</h3>
               <p className="feature-desc">
-                Native Flutter application delivering a premium experience across both iOS
-                and Android with background location and camera integration.
+                Native Flutter application delivering a premium experience across both iOS (currently unreleased)
+                and Android with background location integration while app is in use.
               </p>
             </div>
             <div className="feature-card">
@@ -247,17 +245,17 @@ export default function Home() {
         <div className="container">
           <div className="cta-card">
             <h2 className="cta-title">
-              Ready to Modernize Your Campus?
+              Ready to Modernize Your Attendance?
             </h2>
             <p className="cta-desc">
               Download the LedgerAttend app and eliminate proxy attendance from day one.
               Choose the right version for your Android device.
             </p>
             <div className="cta-buttons">
-              <a href="/ledgerattendv1-5-a11.apk" download className="btn btn-primary" style={{ fontSize: '17px', padding: '18px 40px' }}>
+              <a href="/ledgerattendv1-5-a11.apk" download className="btn btn-primary" style={{ fontSize: '16.5px', padding: '18px 40px' }}>
                 📥 Android 11 & Above
               </a>
-              <a href="/ledgerattendv1-5-a10.apk" download className="btn btn-outline" style={{ fontSize: '17px', padding: '18px 40px' }}>
+              <a href="/ledgerattendv1-5-a10.apk" download className="btn btn-outline" style={{ fontSize: '16px', padding: '18px 40px' }}>
                 📥 Android 10 & Below
               </a>
             </div>
@@ -275,12 +273,12 @@ export default function Home() {
                 LedgerAttend
               </h3>
               <p>
-                Enterprise-grade geofenced attendance and campus operations ecosystem.
-                Built to eliminate proxy attendance and streamline institutional workflows.
+                Geofenced attendance and campus operations ecosystem.
+                Built to eliminate proxy attendance and streamline institutional workflows fluently.
               </p>
             </div>
             <div className="footer-col">
-              <h4>Platform</h4>
+              <h4>Quick Links</h4>
               <a href="#features">Features</a>
               <a href="#how-it-works">How It Works</a>
               <a href="#tech">Tech Stack</a>
@@ -288,12 +286,12 @@ export default function Home() {
             </div>
             <div className="footer-col">
               <h4>Contact & Team</h4>
-              <p>Sundram Gupta — 6307748088</p>
-              <p>Praveen Kr Singh — 6306108993</p>
+              <p>Sundram Gupta <a href="tel:6307748088">6307748088</a></p>
+              <p>Praveen Kr Singh <a href="tel:6306108993">6306108993</a></p>
             </div>
           </div>
           <div className="footer-bottom">
-            © {new Date().getFullYear()} LedgerAttend Operations. All Rights Reserved.
+            © {new Date().getFullYear()} LedgerAttend. All Rights Reserved.
           </div>
         </div>
       </footer>
