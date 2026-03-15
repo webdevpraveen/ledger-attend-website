@@ -36,10 +36,10 @@ export default function Home() {
               attendance record is accurate, verified, and irrefutable.
             </p>
             <div className="hero-actions animate-in delay-3">
-              <a href="/api/download?file=ledgerattendv1-5-a11.apk" className="btn btn-primary">
+              <a href="/ledgerattendv1-5-a11.apk" download className="btn btn-primary">
                 📥 Download for Android 11+
               </a>
-              <a href="/api/download?file=ledgerattendv1-5-a10.apk" className="btn btn-outline">
+              <a href="/ledgerattendv1-5-a10.apk" download className="btn btn-outline">
                 📥 Download for Android 10 & Below
               </a>
             </div>
@@ -254,10 +254,10 @@ export default function Home() {
               Choose the right version for your Android device.
             </p>
             <div className="cta-buttons">
-              <a href="/api/download?file=ledgerattendv1-5-a11.apk" className="btn btn-primary" style={{ fontSize: '17px', padding: '18px 40px' }}>
+              <a href="/ledgerattendv1-5-a11.apk" download className="btn btn-primary" style={{ fontSize: '17px', padding: '18px 40px' }}>
                 📥 Android 11 & Above
               </a>
-              <a href="/api/download?file=ledgerattendv1-5-a10.apk" className="btn btn-outline" style={{ fontSize: '17px', padding: '18px 40px' }}>
+              <a href="/ledgerattendv1-5-a10.apk" download className="btn btn-outline" style={{ fontSize: '17px', padding: '18px 40px' }}>
                 📥 Android 10 & Below
               </a>
             </div>
