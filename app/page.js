@@ -34,11 +34,11 @@ export default function Home() {
               attendance record is accurate, verified, and irrefutable.
             </p>
             <div className="hero-actions animate-in delay-3">
-              <a href="/ledgerattendv1-6-a11.apk" download className="btn btn-primary">
-                📥 Download for Android 11+
+              <a href="/app-arm64-v8a-release.apk" download className="btn btn-primary">
+                📥 Download for Android 11+ (v8a)
               </a>
-              <a href="/ledgerattendv1-6-a10.apk" download className="btn btn-outline">
-                📥 Download for Android 10 & Below
+              <a href="/app-armeabi-v7a-release.apk" download className="btn btn-outline">
+                📥 Download for Android 10 & Below (v7a)
               </a>
             </div>
             <div className="hero-stats animate-in delay-4">
@@ -252,11 +252,11 @@ export default function Home() {
               Choose the right version for your Android device.
             </p>
             <div className="cta-buttons">
-              <a href="/ledgerattendv1-6-a11.apk" download className="btn btn-primary" style={{ fontSize: '16.5px', padding: '18px 40px' }}>
-                📥 Android 11 & Above
+              <a href="/app-arm64-v8a-release.apk" download className="btn btn-primary" style={{ fontSize: '16.5px', padding: '18px 40px' }}>
+                📥 Android 11 & Above (v8a)
               </a>
-              <a href="/ledgerattendv1-6-a10.apk" download className="btn btn-outline" style={{ fontSize: '16px', padding: '18px 40px' }}>
-                📥 Android 10 & Below
+              <a href="/app-armeabi-v7a-release.apk" download className="btn btn-outline" style={{ fontSize: '16px', padding: '18px 40px' }}>
+                📥 Android 10 & Below (v7a)
               </a>
             </div>
           </div>
