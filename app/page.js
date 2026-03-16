@@ -252,10 +252,10 @@ export default function Home() {
               Choose the right version for your Android device.
             </p>
             <div className="cta-buttons">
-              <a href="/ledgerattendv1-5-a11.apk" download className="btn btn-primary" style={{ fontSize: '16.5px', padding: '18px 40px' }}>
+              <a href="/ledgerattendv1-6-a11.apk" download className="btn btn-primary" style={{ fontSize: '16.5px', padding: '18px 40px' }}>
                 📥 Android 11 & Above
               </a>
-              <a href="/ledgerattendv1-5-a10.apk" download className="btn btn-outline" style={{ fontSize: '16px', padding: '18px 40px' }}>
+              <a href="/ledgerattendv1-6-a10.apk" download className="btn btn-outline" style={{ fontSize: '16px', padding: '18px 40px' }}>
                 📥 Android 10 & Below
               </a>
             </div>
