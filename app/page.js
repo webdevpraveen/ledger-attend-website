@@ -34,12 +34,18 @@ export default function Home() {
               attendance record is accurate, verified, and irrefutable.
             </p>
             <div className="hero-actions animate-in delay-3">
-              <a href="/app-arm64-v8a-release.apk" download className="btn btn-primary">
-                📥 Download for Android 11+ (v8a)
-              </a>
-              <a href="/app-armeabi-v7a-release.apk" download className="btn btn-outline">
-                📥 Download for Android 10 & Below (v7a)
-              </a>
+              <div className="hero-buttons">
+                <a href="/app-arm64-v8a-release.apk" download className="btn btn-primary">
+                  📥 Download for Android 11+ (v8a)
+                </a>
+                <a href="/app-armeabi-v7a-release.apk" download className="btn btn-outline">
+                  📥 Download for Android 10 & Below (v7a)
+                </a>
+              </div>
+              <div className="last-updated">
+                <span className="last-updated-dot"></span>
+                Last Updated: 16 March, 2026 • 09:55 AM
+              </div>
             </div>
             <div className="hero-stats animate-in delay-4">
               <div>

@@ -265,9 +265,41 @@ body {
 .hero-actions {
   font-size: 16px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+
+.hero-buttons {
+  display: flex;
   gap: 16px;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.last-updated {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  font-weight: 500;
+  color: var(--text-dim);
+  background: rgba(255, 255, 255, 0.03);
+  padding: 6px 14px;
+  border-radius: 100px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  margin-top: 8px;
+  letter-spacing: 0.2px;
+}
+
+.last-updated-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--green);
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--green);
+  display: inline-block;
 }
 
 .btn {
