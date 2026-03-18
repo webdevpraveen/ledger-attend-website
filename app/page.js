@@ -44,7 +44,7 @@ export default function Home() {
               </div>
               <div className="last-updated">
                 <span className="last-updated-dot"></span>
-                Last Updated: 17 March . 08:01 AM
+                Last Updated: 19 March . 04:23 AM
               </div>
             </div>
             <div className="hero-stats animate-in delay-4">
